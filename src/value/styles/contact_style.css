@@ -1,0 +1,35 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 8%;
+}
+.contactForm{
+    margin-top: 3%;
+    width: 40%;
+}
+@media (max-Width: 780px){
+    .contactForm{
+        margin-top: 3%;
+        width: 95%;
+    }
+    .contact{
+        margin-top: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+    }
+    .dateContact{
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+    .dateSkills{
+        margin-top: 25%;
+    }
+}

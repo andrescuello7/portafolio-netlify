@@ -1,0 +1,54 @@
+.aboutTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+}
+.aboutDate{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aboutImg{
+    width: 500px;
+    border-radius: 1rem;
+}
+.aboutText{
+    color: rgba(43, 39, 39, 0.87);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    width: 40%;
+}
+@media (max-Width: 780px){
+    .aboutTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-top: 10%;
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 2em;
+    }
+    .aboutDate{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutImg{
+        width: 98%;
+        border-radius: 1rem;
+    }
+    .aboutText{
+        text-align: left;
+        width: 95%;
+    }
+    .about{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

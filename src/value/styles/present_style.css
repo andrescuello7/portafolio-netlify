@@ -1,0 +1,56 @@
+.carrucel {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7%;
+}
+.CarrucelWidth {
+  width: 22%;
+}
+.CarrucelText {
+  margin-top: 6%;
+  font-size: 3rem;
+  width: 34%;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+.icon-favicon {
+  margin-left: 1%;
+  height: 40px;
+  width: 40px;
+  background: #474849;
+  color: rgb(245, 245, 255);
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.icon-favicon:hover {
+  background: #0673bb;
+}
+
+@media (max-width: 780px) {
+  .carrucel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+  }
+  .CarrucelWidth {
+    width: 75%;
+  }
+  .CarrucelText {
+    margin-top: 4%;
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+  }
+}
